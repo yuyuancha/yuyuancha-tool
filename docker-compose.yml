@@ -1,0 +1,39 @@
+version: "3.5"
+services:
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        ports:
+            - ${DOCKER_FRONTEND_PORT}:5173
+        volumes:
+            - ./frontend/src:/app/src
+            - ./frontend/public:/app/public
+            - ./frontend/.env:/app/.env
+            - ./frontend/package.json:/app/package.json
+            - ./frontend/index.html:/app/index.html
+            - ./frontend/vite.config.js:/app/vite.config.js
+    backend:
+        image: golang:1.20.3
+        ports:
+            - ${DOCKER_BACKEND_PORT}:3000
+        volumes:
+            - ./backend:/go/src/app
+            - ./data/go/pkg/mod:/go/pkg/mod
+            - ./data/go/bin:/go/bin
+        environment:
+            - GO111MODULE=on
+        working_dir: /go/src/app
+        tty: true
+        depends_on:
+            - mysql
+    mysql:
+        image: mysql:8.0
+        restart: always
+        ports:
+            - ${DOCKER_MYSQL_PORT}:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DOCKER_MYSQL_ROOT_PASSWORD}
+            MYSQL_DATABASE: ${DOCKER_MYSQL_DATABASE}
+        volumes:
+            - ./data/mysql:/data

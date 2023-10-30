@@ -1,0 +1,10 @@
+.idea/
+data/
+
+./backend/.env
+./frontend/.env
+./frontend/.vscode
+./frontend/node_modules
+./frontend/package-lock.json
+
+.env
