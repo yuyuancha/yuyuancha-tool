@@ -8,7 +8,7 @@
     <hr class="ivu-mb" />
     <Row>
         <Col span="5" style="margin-right: 20px;">
-            <Menu :active-name="route.path" :open-names="['dogHero']">
+            <Menu :active-name="route.path" :open-names="['dogHero', 'music', 'piano']">
                 <Submenu name="dogHero">
                     <template #title>
                         <Icon type="md-game-controller-b" />
@@ -20,6 +20,21 @@
                     <MenuItem name="/dogHero/monthlyTarget" to="/dogHero/monthlyTarget">
                         月度達標表
                     </MenuItem>
+                </Submenu>
+                <Submenu name="music">
+                    <template #title>
+                        <Icon type="md-game-controller-b" />
+                        音樂
+                    </template>
+                    <Submenu name="piano">
+                        <template #title>
+                            <Icon type="md-game-controller-b" />
+                            鋼琴
+                        </template>
+                        <MenuItem name="/music/piano/sightSeeingPractice" to="/music/piano/sightSeeingPractice">
+                            視譜練習
+                        </MenuItem>
+                    </Submenu>
                 </Submenu>
             </Menu>
         </Col>

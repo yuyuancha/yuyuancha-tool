@@ -6,6 +6,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from '@/components/Home.vue';
 import DogHeroBoxCalculator from '@/components/dogHero/BoxCalculator.vue';
 import DogHeroMonthlyTarget from '@/components/dogHero/MonthlyTarget.vue';
+import MusicPianoSightSeeingPractice from '@/components/music/piano/SightSeeingPractice.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -22,6 +23,10 @@ const router = createRouter({
         {
             path: "/dogHero/monthlyTarget",
             component: DogHeroMonthlyTarget,
+        },
+        {
+            path: "/music/piano/sightSeeingPractice",
+            component: MusicPianoSightSeeingPractice,
         }
     ],
 });
