@@ -7,6 +7,7 @@ import Home from '@/components/Home.vue';
 import DogHeroBoxCalculator from '@/components/dogHero/BoxCalculator.vue';
 import DogHeroMonthlyTarget from '@/components/dogHero/MonthlyTarget.vue';
 import MusicPianoSightSeeingPractice from '@/components/music/piano/SightSeeingPractice.vue';
+import MusicGuitarChordsDisplay from '@/components/music/guitar/ChordsDisplay.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -27,7 +28,11 @@ const router = createRouter({
         {
             path: "/music/piano/sightSeeingPractice",
             component: MusicPianoSightSeeingPractice,
-        }
+        },
+        {
+            path: "/music/guitar/chordsDisplay",
+            component: MusicGuitarChordsDisplay,
+        },
     ],
 });
 
