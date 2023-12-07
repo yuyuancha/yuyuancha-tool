@@ -61,7 +61,8 @@ export default {
                       iconType: "md-game-controller-b",
                       nameCN: "吉他",
                       menuItems: [
-                          { path: "/music/guitar/chordsDisplay", iconType: "", nameCN: "和弦展示" }
+                          { path: "/music/guitar/chordsDisplay", iconType: "", nameCN: "和弦展示" },
+                          { path: "/music/guitar/diatonicChordsDisplay", iconType: "", nameCN: "順階和弦展示" }
                       ],
                       subMenus: [],
                   }
