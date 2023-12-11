@@ -18,10 +18,11 @@ import {onMounted, ref} from "vue";
 import {Row, Space, Text} from "view-ui-plus";
 import {drawChords} from "@js/guitar/canvas";
 import diatonicChords from "@js/guitar/diatonicChords";
+import ChordsItem from "@/components/music/guitar/ChordsItem.vue";
 
 export default {
     name: "DiatonicChordsDisplay",
-    components: {Text, Row, Space},
+    components: {ChordsItem, Text, Row, Space},
     setup() {
         const context = ref({});
         const canvasMaxWidth = 800;
