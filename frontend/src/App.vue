@@ -65,6 +65,23 @@ export default {
                           { path: "/music/guitar/diatonicChordsDisplay", iconType: "", nameCN: "順階和弦展示" }
                       ],
                       subMenus: [],
+                  },
+              ],
+          },
+          {
+              name: "practice",
+              iconType: "md-game-controller-b",
+              nameCN: "練習",
+              menuItems: [],
+              subMenus: [
+                  {
+                      name: "threeJs",
+                      iconType: "md-game-controller-b",
+                      nameCN: "ThreeJs",
+                      menuItems: [
+                          { path: "/practice/threeJs/threeJsPractice", iconType: "", nameCN: "語法練習" }
+                      ],
+                      subMenus: [],
                   }
               ],
           }
