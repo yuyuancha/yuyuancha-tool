@@ -14,6 +14,15 @@ var Driver struct {
 	Mysql mysqlStruct
 }
 
+// WeatherApi 天氣 API Config
+var WeatherApi weatherApiConfig
+
+// weatherApiConfig 天氣 API Config
+type weatherApiConfig struct {
+	Url      string
+	AuthCode string
+}
+
 // appConfigStruct 程序環境 Config 結構
 type appConfigStruct struct {
 	Environment string
@@ -55,5 +64,11 @@ func init() {
 			Password: v.GetString("MYSQL_PASSWORD"),
 			Database: v.GetString("MYSQL_DATABASE"),
 		},
+	}
+
+	// 配置天氣 API Config
+	WeatherApi = weatherApiConfig{
+		Url:      v.GetString("WEATHER_API_URL"),
+		AuthCode: v.GetString("WEATHER_AUTH_CODE"),
 	}
 }
