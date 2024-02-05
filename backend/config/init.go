@@ -1,9 +1,9 @@
 package config
 
 import (
+	"github.com/joho/godotenv"
 	"log"
-
-	"github.com/spf13/viper"
+	"os"
 )
 
 // App 主要程序環境 Config
@@ -17,43 +17,44 @@ var Driver struct {
 // appConfigStruct 程序環境 Config 結構
 type appConfigStruct struct {
 	Environment string
-	Port        int
+	Port        string
 }
 
 // mysqlStruct MySql Config 結構
 type mysqlStruct struct {
 	Host     string
-	Port     int
+	Port     string
 	User     string
 	Password string
 	Database string
 }
 
-func init() {
-	v := viper.New()
-	v.SetConfigName(".env")
-	v.SetConfigType("env")
-	v.AddConfigPath(".")
+// GoogleMapsApiKey google maps api 金鑰
+var GoogleMapsApiKey string
 
-	err := v.ReadInConfig()
+func init() {
+	err := godotenv.Load()
 	if err != nil {
-		log.Fatalln("無法讀取配置文件:", err.Error())
+		log.Fatalln("設定 ENV 發生錯誤:", err.Error())
 	}
 
 	// 配置主要程序環境 Config
 	App = appConfigStruct{
-		Environment: v.GetString("APP_ENV"),
-		Port:        v.GetInt("APP_PORT"),
+		Environment: os.Getenv("APP_ENV"),
+		Port:        os.Getenv("APP_PORT"),
 	}
 
 	// 配置資料庫環境 Config
 	Driver = struct{ Mysql mysqlStruct }{
 		Mysql: mysqlStruct{
-			Host:     v.GetString("MYSQL_HOST"),
-			Port:     v.GetInt("MYSQL_PORT"),
-			User:     v.GetString("MYSQL_USER"),
-			Password: v.GetString("MYSQL_PASSWORD"),
-			Database: v.GetString("MYSQL_DATABASE"),
+			Host:     os.Getenv("MYSQL_HOST"),
+			Port:     os.Getenv("MYSQL_PORT"),
+			User:     os.Getenv("MYSQL_USER"),
+			Password: os.Getenv("MYSQL_PASSWORD"),
+			Database: os.Getenv("MYSQL_DATABASE"),
 		},
 	}
+
+	// 配置 google maps api 金鑰
+	GoogleMapsApiKey = os.Getenv("GOOGLE_MAPS_API_KEY")
 }

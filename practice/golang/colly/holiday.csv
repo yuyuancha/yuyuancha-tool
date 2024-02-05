@@ -1,0 +1,240 @@
+Day,Date,Holiday Name,Holiday Type,Is Holiday,Comments
+Tuesday,20190101,Republic Day,National Holiday,true,
+Saturday,20190119,Compensatory workday,Compensated,false,Makeup day for Lunar New Year Holiday
+Saturday,20190202,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year's Eve
+Sunday,20190203,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year's Eve
+Monday,20190204,Lunar New Year's Eve,National Holiday,true,Day before 1st day of 1st lunar month
+Tuesday,20190205,Lunar New Year,National Holiday,true,1st day of 1st lunar month
+Wednesday,20190206,Lunar New Year Holiday,National Holiday,true,2nd day of 1st lunar month
+Thursday,20190207,Lunar New Year Holiday,National Holiday,true,3rd day of 1st lunar month
+Friday,20190208,Lunar New Year Holiday,National Holiday,true,4th day of 1st lunar month. Compensated by Saturday 19 January
+Saturday,20190209,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year Holiday
+Sunday,20190210,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year Holiday
+Tuesday,20190219,Lantern Festival,Not A Public Holiday,false,15th Day of 1st lunar month
+Saturday,20190223,Compensatory workday,Compensated,false,Makeup day for Peace Memorial Day Holiday
+Thursday,20190228,Peace Memorial Day,National Holiday,true,
+Friday,20190301,Peace Memorial Day Holiday,National Holiday,true,Compensated by Saturday 23 February
+Saturday,20190302,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day Holiday
+Sunday,20190303,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day Holiday
+Thursday,20190404,Children's Day,National Holiday,true,
+Friday,20190405,Tomb-Sweeping Day,National Holiday,true,Tomb Sweeping Day
+Saturday,20190406,Extended Weekend,Extended Weekend,true,Extended Weekend for Tomb-Sweeping Day
+Sunday,20190407,Extended Weekend,Extended Weekend,true,Extended Weekend for Tomb-Sweeping Day
+Wednesday,20190501,Labor day,National Holiday,true,Private sector workers only
+Sunday,20190512,Mother's Day,Not A Public Holiday,true,2nd Sunday in May. Not a public holiday
+Friday,20190607,Dragon Boat Festival,National Holiday,true,Tuen Ng Festival
+Saturday,20190608,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival
+Sunday,20190609,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival
+Thursday,20190808,Father's Day,Not A Public Holiday,false,Always on 8 August. Not a public holiday
+Friday,20190913,Mid-Autumn Festival,National Holiday,true,
+Saturday,20190914,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Sunday,20190915,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Saturday,20191005,Compensatory workday,Compensated,false,Makeup day for National Day Holiday (bridge day)
+Monday,20191007,Double Ninth Day,Not A Public Holiday,false,Autumn Remembrance
+Thursday,20191010,National Day,National Holiday,true,National Day
+Friday,20191011,National Day Holiday (bridge day),National Holiday,true,Compensated by Saturday 5 October
+Saturday,20191012,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day Holiday (bridge day)
+Sunday,20191013,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day Holiday (bridge day)
+Wednesday,20200101,Republic Day,National Holiday,true,
+Thursday,20200123,Lunar New Year Holiday,National Holiday,true,Day before New Year's Eve
+Friday,20200124,Lunar New Year's Eve,National Holiday,true,Day before 1st day of 1st lunar month
+Saturday,20200125,Lunar New Year,National Holiday,true,1st day of 1st lunar month
+Sunday,20200126,Lunar New Year Holiday,National Holiday,true,2nd day of 1st lunar month
+Monday,20200127,Lunar New Year Holiday,National Holiday,true,3rd day of 1st lunar month
+Tuesday,20200128,Lunar New Year Holiday,National Holiday,true,4th day of 1st lunar month
+Wednesday,20200129,Lunar New Year Holiday,National Holiday,true,5th day of 1st lunar month
+Saturday,20200208,Lantern Festival,Not A Public Holiday,true,15th Day of 1st lunar month
+Friday,20200228,Peace Memorial Day,National Holiday,true,
+Saturday,20200229,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day
+Sunday,20200301,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day
+Thursday,20200402,Tomb-Sweeping Day (in lieu),National Holiday,true,
+Friday,20200403,Children's Day (in lieu),National Holiday,true,Friday is a holiday as Childrens Day falls on a Saturday
+Saturday,20200404,Extended Weekend,Extended Weekend,true,Extended Weekend for Children's Day (in lieu)
+Sunday,20200405,Tomb-Sweeping Day,National Holiday,true,Tomb Sweeping Day
+Friday,20200501,Labor day,National Holiday,true,Private sector workers only
+Saturday,20200502,Extended Weekend,Extended Weekend,true,Extended Weekend for Labor day
+Sunday,20200503,Extended Weekend,Extended Weekend,true,Extended Weekend for Labor day
+Sunday,20200510,Mother's Day,Not A Public Holiday,true,2nd Sunday in May. Not a public holiday
+Saturday,20200620,Compensatory workday,Compensated,false,Makeup day for Dragon Boat Festival Holiday
+Thursday,20200625,Dragon Boat Festival,National Holiday,true,Tuen Ng Festival
+Friday,20200626,Dragon Boat Festival Holiday,National Holiday,true,Compensated by Saturday 20 June
+Saturday,20200627,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival Holiday
+Sunday,20200628,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival Holiday
+Saturday,20200808,Father's Day,Not A Public Holiday,true,Always on 8 August. Not a public holiday
+Saturday,20200926,Compensatory workday,Compensated,false,Makeup day for Mid-Autumn Festival Holiday
+Thursday,20201001,Mid-Autumn Festival,National Holiday,true,
+Friday,20201002,Mid-Autumn Festival Holiday,National Holiday,true,Compensated by Saturday September 26th
+Saturday,20201003,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival Holiday
+Sunday,20201004,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival Holiday
+Friday,20201009,National Day (in lieu),National Holiday,true,National Day
+Saturday,20201010,National Day,National Holiday,true,National Day
+Sunday,20201011,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day (in lieu)
+Sunday,20201025,Double Ninth Day,Not A Public Holiday,true,Autumn Remembrance
+Friday,20210101,Republic Day,National Holiday,true,
+Saturday,20210102,Extended Weekend,Extended Weekend,true,Extended Weekend for Republic Day
+Sunday,20210103,Extended Weekend,Extended Weekend,true,Extended Weekend for Republic Day
+Wednesday,20210210,Lunar New Year Holiday,National Holiday,true,
+Thursday,20210211,Lunar New Year's Eve,National Holiday,true,
+Friday,20210212,Lunar New Year,National Holiday,true,1st day of 1st lunar month
+Saturday,20210213,Lunar New Year Holiday,National Holiday,true,
+Sunday,20210214,Lunar New Year Holiday,National Holiday,true,
+Monday,20210215,Lunar New Year Holiday,National Holiday,true,
+Tuesday,20210216,Lunar New Year Holiday,National Holiday,true,
+Saturday,20210227,Lantern Festival,Not A Public Holiday,true,15th Day of 1st lunar month
+Sunday,20210228,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day (in lieu)
+Monday,20210301,Peace Memorial Day (in lieu),National Holiday,true,
+Friday,20210402,Tomb-Sweeping Day (in lieu),National Holiday,true,Tomb Sweeping Day
+Saturday,20210403,Extended Weekend,Extended Weekend,true,Extended Weekend for Tomb-Sweeping Day (in lieu)
+Saturday,20210403,Extended Weekend,Extended Weekend,true,Extended Weekend for Children's Day (in lieu)
+Sunday,20210404,Children's Day,National Holiday,true,
+Monday,20210405,Children's Day (in lieu),National Holiday,true,
+Friday,20210430,Labor day (in lieu),National Holiday,true,Private sector workers only
+Saturday,20210501,Labor day,National Holiday,true,Private sector workers only
+Sunday,20210502,Extended Weekend,Extended Weekend,true,Extended Weekend for Labor day (in lieu)
+Sunday,20210509,Mother's Day,Not A Public Holiday,true,2nd Sunday in May. Not a public holiday
+Saturday,20210612,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival
+Sunday,20210613,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival
+Monday,20210614,Dragon Boat Festival,National Holiday,true,Tuen Ng Festival
+Sunday,20210808,Father's Day,Not A Public Holiday,true,Always on 8 August. Not a public holiday
+Saturday,20210911,Compensatory workday,Compensated,false,Makeup day for Mid-Autumn Festival Holiday
+Saturday,20210918,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Sunday,20210919,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Monday,20210920,Mid-Autumn Festival,National Holiday,true,
+Tuesday,20210921,Mid-Autumn Festival Holiday,National Holiday,true,Compensated by Sat. Sept. 11
+Saturday,20211009,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day (in lieu)
+Sunday,20211010,National Day,National Holiday,true,National Day
+Monday,20211011,National Day (in lieu),National Holiday,true,
+Thursday,20211014,Double Ninth Day,Not A Public Holiday,false,Autumn Remembrance
+Friday,20211231,Republic Day,National Holiday,true,
+Saturday,20220101,Republic Day,National Holiday,true,
+Sunday,20220102,Extended Weekend,Extended Weekend,true,Extended Weekend for Republic Day
+Saturday,20220129,Lunar New Year Holiday,National Holiday,true,
+Sunday,20220130,Lunar New Year Holiday,National Holiday,true,
+Monday,20220131,Lunar New Year's Eve,National Holiday,true,Day before 1st day of 1st lunar month
+Tuesday,20220201,Lunar New Year,National Holiday,true,1st day of 1st lunar month
+Wednesday,20220202,Lunar New Year Holiday,National Holiday,true,2nd day of 1st lunar month
+Thursday,20220203,Lunar New Year Holiday,National Holiday,true,3rd day of 1st lunar month
+Friday,20220204,Lunar New Year Holiday,National Holiday,true,4th day of 1st lunar month
+Saturday,20220205,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year Holiday
+Sunday,20220206,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year Holiday
+Wednesday,20220216,Lantern Festival,Not A Public Holiday,false,15th Day of 1st lunar month
+Saturday,20220226,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day
+Sunday,20220227,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day
+Monday,20220228,Peace Memorial Day,National Holiday,true,
+Saturday,20220402,Extended Weekend,Extended Weekend,true,Extended Weekend for Children's Day
+Sunday,20220403,Extended Weekend,Extended Weekend,true,Extended Weekend for Children's Day
+Monday,20220404,Children's Day,National Holiday,true,
+Tuesday,20220405,Tomb-Sweeping Day,National Holiday,true,Tomb Sweeping Day
+Sunday,20220501,Labor day,National Holiday,true,Private sector workers only
+Sunday,20220508,Mother's Day,Not A Public Holiday,true,2nd Sunday in May. Not a public holiday
+Friday,20220603,Dragon Boat Festival,National Holiday,true,Tuen Ng Festival
+Saturday,20220604,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival
+Sunday,20220605,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival
+Monday,20220808,Father's Day,Not A Public Holiday,false,Always on 8 August. Not a public holiday
+Friday,20220909,Mid-Autumn Festival,National Holiday,true,
+Saturday,20220910,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Sunday,20220911,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Tuesday,20221004,Double Ninth Day,Not A Public Holiday,false,Autumn Remembrance
+Saturday,20221008,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day
+Sunday,20221009,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day
+Monday,20221010,National Day,National Holiday,true,National Day
+Saturday,20221231,Extended Weekend,Extended Weekend,true,Extended Weekend for Republic Day Holiday
+Sunday,20230101,Republic Day,National Holiday,true,
+Monday,20230102,Republic Day Holiday,National Holiday,true,Compensated by Sat. Jan 7
+Saturday,20230107,Compensatory workday,Compensated,false,Makeup day for Republic Day Holiday
+Friday,20230120,Lunar New Year Holiday,National Holiday,true,
+Saturday,20230121,Lunar New Year's Eve,National Holiday,true,
+Sunday,20230122,Lunar New Year,National Holiday,true,1st day of 1st lunar month
+Monday,20230123,Lunar New Year Holiday,National Holiday,true,
+Tuesday,20230124,Lunar New Year Holiday,National Holiday,true,
+Wednesday,20230125,Lunar New Year Holiday,National Holiday,true,
+Thursday,20230126,Lunar New Year Holiday,National Holiday,true,
+Friday,20230127,Lunar New Year Holiday,National Holiday,true,Compensated by Sat. Feb 4
+Saturday,20230128,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year Holiday
+Sunday,20230129,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year Holiday
+Saturday,20230204,Compensatory workday,Compensated,false,Makeup day for Lunar New Year Holiday
+Sunday,20230205,Lantern Festival,Not A Public Holiday,true,15th Day of 1st lunar month
+Saturday,20230218,Compensatory workday,Compensated,false,Makeup day for Peace Memorial Day Holiday
+Saturday,20230225,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day Holiday
+Sunday,20230226,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day Holiday
+Monday,20230227,Peace Memorial Day Holiday,National Holiday,true,Compensated by Sat. Feb 18
+Tuesday,20230228,Peace Memorial Day,National Holiday,true,
+Saturday,20230325,Compensatory workday,Compensated,false,Makeup day for Children's Day (bridge day)
+Saturday,20230401,Extended Weekend,Extended Weekend,true,Extended Weekend for Children's Day (bridge day)
+Sunday,20230402,Extended Weekend,Extended Weekend,true,Extended Weekend for Children's Day (bridge day)
+Monday,20230403,Children's Day (bridge day),National Holiday,true,Compensated by Sat. Mar 25
+Tuesday,20230404,Children's Day,National Holiday,true,
+Wednesday,20230405,Tomb-Sweeping Day,National Holiday,true,Tomb Sweeping Day
+Saturday,20230429,Extended Weekend,Extended Weekend,true,Extended Weekend for Labor day
+Sunday,20230430,Extended Weekend,Extended Weekend,true,Extended Weekend for Labor day
+Monday,20230501,Labor day,National Holiday,true,Private sector workers only
+Sunday,20230514,Mother's Day,Not A Public Holiday,true,2nd Sunday in May. Not a public holiday
+Saturday,20230617,Compensatory workday,Compensated,false,Makeup day for Dragon Boat Festival (bridge day)
+Thursday,20230622,Dragon Boat Festival,National Holiday,true,Tuen Ng Festival
+Friday,20230623,Dragon Boat Festival (bridge day),National Holiday,true,Compensated by Sat. June 17
+Saturday,20230624,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival (bridge day)
+Sunday,20230625,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival (bridge day)
+Tuesday,20230808,Father's Day,Not A Public Holiday,false,Always on 8 August. Not a public holiday
+Saturday,20230923,Compensatory workday,Compensated,false,Makeup day for National Day (bridge day)
+Friday,20230929,Mid-Autumn Festival,National Holiday,true,
+Saturday,20230930,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Sunday,20231001,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Saturday,20231007,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day (bridge day)
+Sunday,20231008,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day (bridge day)
+Monday,20231009,National Day (bridge day),National Holiday,true,Compensated by Sat. Sep. 23
+Tuesday,20231010,National Day,National Holiday,true,National Day
+Sunday,20231022,Double Ninth Day,Not A Public Holiday,true,Autumn Remembrance
+Saturday,20231230,Extended Weekend,Extended Weekend,true,Extended Weekend for Republic Day
+Sunday,20231231,Republic Day,National Holiday,true,
+Monday,20240101,Republic Day,National Holiday,true,
+Thursday,20240208,Lunar New Year Holiday,National Holiday,true,Compensated by Sat 17 February
+Friday,20240209,Lunar New Year's Eve,National Holiday,true,
+Saturday,20240210,Lunar New Year,National Holiday,true,1st day of 1st lunar month
+Sunday,20240211,Lunar New Year Holiday,National Holiday,true,
+Monday,20240212,Lunar New Year Holiday,National Holiday,true,
+Tuesday,20240213,Lunar New Year Holiday,National Holiday,true,
+Wednesday,20240214,Lunar New Year Holiday,National Holiday,true,
+Saturday,20240217,Compensatory workday,Compensated,false,Makeup day for Lunar New Year Holiday
+Saturday,20240224,Lantern Festival,Not A Public Holiday,true,15th Day of 1st lunar month
+Wednesday,20240228,Peace Memorial Day,National Holiday,true,
+Thursday,20240404,Children's Day,National Holiday,true,
+Friday,20240405,Tomb-Sweeping Day,National Holiday,true,Tomb Sweeping Day
+Saturday,20240406,Extended Weekend,Extended Weekend,true,Extended Weekend for Tomb-Sweeping Day
+Sunday,20240407,Extended Weekend,Extended Weekend,true,Extended Weekend for Tomb-Sweeping Day
+Wednesday,20240501,Labor day,National Holiday,true,Private sector workers only
+Sunday,20240512,Mother's Day,Not A Public Holiday,true,2nd Sunday in May. Not a public holiday
+Saturday,20240608,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival
+Sunday,20240609,Extended Weekend,Extended Weekend,true,Extended Weekend for Dragon Boat Festival
+Monday,20240610,Dragon Boat Festival,National Holiday,true,Tuen Ng Festival
+Thursday,20240808,Father's Day,Not A Public Holiday,false,Always on 8 August. Not a public holiday
+Tuesday,20240917,Mid-Autumn Festival,National Holiday,true,
+Thursday,20241010,National Day,National Holiday,true,National Day
+Friday,20241011,Double Ninth Day,Not A Public Holiday,false,Autumn Remembrance
+Wednesday,20250101,Republic Day,National Holiday,true,
+Saturday,20250125,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year Holiday
+Sunday,20250126,Extended Weekend,Extended Weekend,true,Extended Weekend for Lunar New Year Holiday
+Monday,20250127,Lunar New Year Holiday,National Holiday,true,
+Tuesday,20250128,Lunar New Year's Eve,National Holiday,true,
+Wednesday,20250129,Lunar New Year,National Holiday,true,1st day of 1st lunar month
+Thursday,20250130,Lunar New Year Holiday,National Holiday,true,
+Friday,20250131,Lunar New Year Holiday,National Holiday,true,
+Saturday,20250201,Lunar New Year Holiday,National Holiday,true,
+Sunday,20250202,Lunar New Year Holiday,National Holiday,true,
+Wednesday,20250212,Lantern Festival,Not A Public Holiday,false,15th Day of 1st lunar month
+Friday,20250228,Peace Memorial Day,National Holiday,true,
+Saturday,20250301,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day
+Sunday,20250302,Extended Weekend,Extended Weekend,true,Extended Weekend for Peace Memorial Day
+Friday,20250404,Children's Day,National Holiday,true,
+Saturday,20250405,Tomb-Sweeping Day,National Holiday,true,Tomb Sweeping Day
+Sunday,20250406,Extended Weekend,Extended Weekend,true,Extended Weekend for Children's Day
+Thursday,20250501,Labor day,National Holiday,true,Private sector workers only
+Sunday,20250511,Mother's Day,Not A Public Holiday,true,2nd Sunday in May. Not a public holiday
+Saturday,20250531,Dragon Boat Festival,National Holiday,true,Tuen Ng Festival
+Friday,20250808,Father's Day,Not A Public Holiday,false,Always on 8 August. Not a public holiday
+Saturday,20251004,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Sunday,20251005,Extended Weekend,Extended Weekend,true,Extended Weekend for Mid-Autumn Festival
+Monday,20251006,Mid-Autumn Festival,National Holiday,true,
+Friday,20251010,National Day,National Holiday,true,National Day
+Saturday,20251011,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day
+Sunday,20251012,Extended Weekend,Extended Weekend,true,Extended Weekend for National Day
+Wednesday,20251029,Double Ninth Day,Not A Public Holiday,false,Autumn Remembrance

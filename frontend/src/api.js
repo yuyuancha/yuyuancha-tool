@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const dogHeroApi = axios.create({
+export const dogHeroApi = axios.create({
     baseURL: `${import.meta.env.VITE_BACKEND_API}/v1/dogHero`,
     headers: {
         "Content-Type": "application/json; charset=utf-8",
@@ -8,4 +8,10 @@ const dogHeroApi = axios.create({
     },
 });
 
-export default dogHeroApi;
+export const govApi = axios.create({
+    baseURL: `${import.meta.env.VITE_BACKEND_API}/v1/gov`,
+    headers: {
+        "Content-Type": "application/json; charset=utf-8",
+        Accept: "application/json",
+    },
+});

@@ -10,7 +10,7 @@
 <script>
 import MonthlyTargetTableVue from '@/components/dogHero/MonthlyTargetTable.vue';
 import {ref} from "vue";
-import dogHeroApi from "@/api";
+import {dogHeroApi} from "@/api";
 import {TabPane, Tabs} from "view-ui-plus";
 
 export default {

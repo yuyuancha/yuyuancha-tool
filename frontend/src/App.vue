@@ -67,6 +67,24 @@ export default {
                       subMenus: [],
                   }
               ],
+          },
+          {
+              name: "gov",
+              iconType: "md-game-controller-b",
+              nameCN: "政府",
+              menuItems: [
+                  { path: "/gov/travelCard/map", iconType: "", nameCN: "旅遊卡地圖" }
+              ],
+              subMenus: [],
+          },
+          {
+              name: "practice",
+              iconType: "md-game-controller-b",
+              nameCN: "練習",
+              menuItems: [
+                  { path: "/practice/googleMap", iconType: "", nameCN: "Google Map 練習" }
+              ],
+              subMenus: [],
           }
       ]);
 

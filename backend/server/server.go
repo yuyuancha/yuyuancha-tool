@@ -15,7 +15,7 @@ func Run() {
 
 	setRouter(router)
 
-	err := router.Run(fmt.Sprintf(":%d", config.App.Port))
+	err := router.Run(fmt.Sprintf(":%s", config.App.Port))
 	if err != nil {
 		log.Fatalln("開啟 Gin 服務失敗:", err.Error())
 	}

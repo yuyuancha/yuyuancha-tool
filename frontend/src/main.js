@@ -4,11 +4,17 @@ import ViewUIPlus from "view-ui-plus";
 import "view-ui-plus/dist/styles/viewuiplus.css";
 import { createRouter, createWebHistory } from "vue-router";
 import Home from '@/components/Home.vue';
+
 import DogHeroBoxCalculator from '@/components/dogHero/BoxCalculator.vue';
 import DogHeroMonthlyTarget from '@/components/dogHero/MonthlyTarget.vue';
+
 import MusicPianoSightSeeingPractice from '@/components/music/piano/SightSeeingPractice.vue';
 import MusicGuitarChordsDisplay from '@/components/music/guitar/ChordsDisplay.vue';
 import MusicGuitarDiatonicChordsDisplay from '@/components/music/guitar/DiatonicChordsDisplay.vue';
+
+import GovTravelCardMap from "@/components/gov/travelCard/TravelCardMap.vue";
+
+import PracticeGoogleMap from "@/components/practice/GoogleMapPractice.vue";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -38,6 +44,14 @@ const router = createRouter({
             path: "/music/guitar/diatonicChordsDisplay",
             component: MusicGuitarDiatonicChordsDisplay,
         },
+        {
+            path: "/gov/travelCard/map",
+            component: GovTravelCardMap,
+        },
+        {
+            path: "/practice/googleMap",
+            component: PracticeGoogleMap,
+        }
     ],
 });
 
