@@ -1,4 +1,4 @@
-package service
+package apiCaller
 
 import (
 	"context"
@@ -10,15 +10,21 @@ import (
 )
 
 const (
-	AIModel = "gemini-1.5-flash"
+	GminiMode = "gemini-1.5-flash"
 )
 
-// 請求 AI 服務
-func requestAI(question string) string {
+// Gmini Gmini 請求服務
+var Gmini = &GminiCaller{}
+
+// GminiCaller Gmini 請求
+type GminiCaller struct{}
+
+// RequestTextQuestion 請求文字問題
+func (caller *GminiCaller) RequestTextQuestion(question string) (string, error) {
 	ctx := context.Background()
 	client, err := genai.NewClient(ctx, option.WithAPIKey(config.GoogleService.GminiApiKey))
 	if err != nil {
-		log.Fatal(err)
+		return "", err
 	}
 
 	defer func() {
@@ -28,17 +34,17 @@ func requestAI(question string) string {
 		}
 	}()
 
-	model := client.GenerativeModel(AIModel)
+	model := client.GenerativeModel(GminiMode)
 	resp, err := model.GenerateContent(ctx, genai.Text(question))
 	if err != nil {
-		log.Fatal(err)
+		return "", err
 	}
 
-	return parseAIResponse(resp)
+	return caller.parseAIResponse(resp), nil
 }
 
 // 解析 AI 回應
-func parseAIResponse(response *genai.GenerateContentResponse) (results string) {
+func (caller *GminiCaller) parseAIResponse(response *genai.GenerateContentResponse) (results string) {
 	for _, candidate := range response.Candidates {
 		for _, part := range candidate.Content.Parts {
 			results = results + fmt.Sprintf("%v", part)

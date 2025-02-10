@@ -3,7 +3,9 @@ package service
 import (
 	"fmt"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
+	"github.com/yuyuancha/yuyuancha-tool/telegram-bot/apiCaller"
 	"github.com/yuyuancha/yuyuancha-tool/telegram-bot/model"
+	"log"
 	"os"
 	"strings"
 )
@@ -129,9 +131,16 @@ func (service *Telegram) getFunctions(update tgbotapi.Update) {
 }
 
 // 詢問 AI 服務
-func (service *Telegram) askQuestionToAI(update tgbotapi.Update) {
+func (service *Telegram) askTextQuestionToAI(update tgbotapi.Update) {
 	search := strings.TrimPrefix(update.Message.Text, "ai ")
-	result := requestAI(search)
+	result, err := apiCaller.Gmini.RequestTextQuestion(search)
+	if err != nil {
+		log.Println("AI 服務發生錯誤:", err)
+		msg := tgbotapi.NewMessage(update.Message.Chat.ID, "AI 服務發生錯誤")
+		service.send(msg)
+		return
+	}
+
 	msg := tgbotapi.NewMessage(update.Message.Chat.ID, result)
 	service.send(msg)
 }
