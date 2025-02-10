@@ -8,3 +8,5 @@ data/
 ./frontend/package-lock.json
 
 .env
+
+./telegram-bot/.env
