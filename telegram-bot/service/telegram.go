@@ -111,7 +111,7 @@ func (service *Telegram) handleEventWithAuth(update tgbotapi.Update) {
 	case strings.HasPrefix(update.Message.Text, "股票"):
 		service.getStocks(update)
 	case strings.HasPrefix(update.Message.Text, "ai"):
-		service.askQuestionToAI(update)
+		service.askTextQuestionToAI(update)
 	case update.Message.Text == "機票":
 		service.getTicket(update)
 	default:
