@@ -1,10 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
-
 	group := NewGroup(16, 0)
 	rooms := NewRooms([]*Room{
 		//NewRoom(1, 100, 50, 30, 5),
