@@ -20,6 +20,9 @@ var TelegramBot telegramBotStruct
 // GoogleService google service 結構
 var GoogleService googleServiceStruct
 
+// NewsApi news api 結構
+var NewsApi newsApiStruct
+
 // 程序環境 Config 結構
 type appConfigStruct struct {
 	Environment string
@@ -42,6 +45,11 @@ type telegramBotStruct struct {
 // google service 結構
 type googleServiceStruct struct {
 	GminiApiKey string
+}
+
+// news api 結構
+type newsApiStruct struct {
+	ApiKey string
 }
 
 func init() {
@@ -79,5 +87,10 @@ func init() {
 	// 配置 google service 結構
 	GoogleService = googleServiceStruct{
 		GminiApiKey: v.GetString("GOOGLE_GMINI_API_KEY"),
+	}
+
+	// 配置 news api 結構
+	NewsApi = newsApiStruct{
+		ApiKey: v.GetString("NEWS_API_KEY"),
 	}
 }

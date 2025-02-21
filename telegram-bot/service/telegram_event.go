@@ -30,8 +30,9 @@ func (service *Telegram) test(update tgbotapi.Update) {
 }
 
 // 取得新聞
-func (service *Telegram) getNews(update tgbotapi.Update) {
-	msg := tgbotapi.NewMessage(update.Message.Chat.ID, "快訊／台大醫院公費流感疫苗打光了！即起暫停接種服務")
+func (service *Telegram) getNewsQuery(update tgbotapi.Update) {
+	articles := getDailyTopHeadlines()
+	msg := tgbotapi.NewMessage(update.CallbackQuery.Message.Chat.ID, articles)
 	service.send(msg)
 }
 
@@ -124,6 +125,9 @@ func (service *Telegram) getFunctions(update tgbotapi.Update) {
 				tgbotapi.NewInlineKeyboardButtonData("📈台積電股票", "股票 台積電"),
 				tgbotapi.NewInlineKeyboardButtonData("📈台灣50股票", "股票 0050"),
 				tgbotapi.NewInlineKeyboardButtonData("📈鴻海股票", "股票 鴻海"),
+			),
+			tgbotapi.NewInlineKeyboardRow(
+				tgbotapi.NewInlineKeyboardButtonData("📰新聞頭條", "新聞頭條"),
 			),
 		},
 	}

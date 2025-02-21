@@ -126,6 +126,8 @@ func (service *Telegram) handleCallbackQuery(update tgbotapi.Update) {
 		service.getFunctions(update)
 	case strings.HasPrefix(update.CallbackQuery.Data, "股票"):
 		service.getStocksQuery(update)
+	case update.CallbackQuery.Data == "新聞頭條":
+		service.getNewsQuery(update)
 	}
 }
 
