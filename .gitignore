@@ -10,3 +10,6 @@ data/
 .env
 
 ./telegram-bot/.env
+
+./pokemon-card-tool/assets/temp/*.png
+./pokemon-card-tool/assets/pokemon-card/uncollected-cards/*.png
